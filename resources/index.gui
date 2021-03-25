@@ -1,5 +1,5 @@
 <svg>
-  <svg class="not-aod" id="not-aod-id">
+
   <!-- set background image -->
   <image id="background-image" href="images/lesen.png" />
   
@@ -25,10 +25,3 @@
   <text id="calendarLabel" class="label" />
 
 </svg>
-
-  <svg class="aod" id="aod-id">
-    <text class="aod-text"  x="20" y="20">10:20</text>
-  </svg>
-</svg>
-
-

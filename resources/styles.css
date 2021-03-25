@@ -82,15 +82,3 @@
   x: 40;
   y: 80;
 }
-
-.aod {
-  display: none;
-}
-
-.not-aod {
-  display: inline;
-}
-
-.aod-text {
-  fill: white;
-}
