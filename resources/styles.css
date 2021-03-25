@@ -1,0 +1,96 @@
+
+#clockHoursLabel {
+  font-size: 120;
+  font-family: Colfax-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 55%;
+  y: 90%;
+  fill: white;
+  z-index: 999;
+}
+
+#clockMinutesLabel {
+  font-size: 95;
+  font-family: Colfax-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 70%;
+  y: 95%;
+  fill: black;
+}
+
+/* #clockShadow {
+  font-size: 90;
+  font-family: Colfax-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50% + 1;
+  y: 90% + 1;
+  fill: black;
+} */
+
+.sensor {
+  width: 24;
+  height: 24;
+}
+
+.label {
+  text-length: 100;
+  font-size: 20;
+  text-anchor: start;
+  font-family: Colfax-Bold;
+  fill: white;
+}
+
+#batteryImage {
+  x: 9;
+  y: 9;
+}
+
+#batteryLabel {
+  x: 40;
+  y: 29;
+}
+
+#heartRateImage {
+  x: 9;
+  y: 35;
+}
+
+#heartRateLabel {
+  x: 40;
+  y: 55;
+}
+
+#calendarImage {
+  x: 9;
+  y: 85;
+}
+
+#calendarLabel {
+  x: 40;
+  y: 105;
+}
+
+#stepsImage {
+  x: 9;
+  y: 60;
+}
+
+#stepsLabel {
+  x: 40;
+  y: 80;
+}
+
+.aod {
+  display: none;
+}
+
+.not-aod {
+  display: inline;
+}
+
+.aod-text {
+  fill: white;
+}
