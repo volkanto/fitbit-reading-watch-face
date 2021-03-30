@@ -7,16 +7,26 @@ import { display } from "display";
 import { battery } from 'power';
 
 import * as util from "../common/utils";
+import { FitFont } from 'fitfont'
 
 clock.granularity = "minutes";
 
-const clockHoursLabel = document.getElementById("clockHoursLabel");
-const clockMinutesLabel = document.getElementById("clockMinutesLabel");
-// const clockShadow = document.getElementById("clockShadow");
 const batteryLabel = document.getElementById("batteryLabel");
 const heartRateLabel = document.getElementById("heartRateLabel");
 const calendarLabel = document.getElementById("calendarLabel");
 const stepsLabel = document.getElementById("stepsLabel");
+
+const clockHoursLabel = new FitFont({
+    id: 'clockHoursLabel',
+    font: 'PT_Sans_Narrow_80',
+    halign: 'middle'
+});
+
+const clockMinutesLabel = new FitFont({
+    id: 'clockMinutesLabel',
+    font: 'PT_Sans_Narrow_60',
+    halign: 'middle'
+});
 
 clock.ontick = (event) => {
 

@@ -4,24 +4,35 @@
   <image id="background-image" href="images/lesen.png" />
   
   <!-- time and shadow-->
-  <text id="clockHoursLabel" opacity="0.9" />
-  <text id="clockMinutesLabel" class="label" opacity="0.5" />
-  <!-- <text id="clockShadow" opacity="0.4" /> -->
+  <!-- <text id="clockHoursLabel" opacity="0.9" />
+  <text id="clockMinutesLabel" class="label" opacity="0.5" /> -->
+  
+  <!-- hours label -->
+  <use href="#fitfont" id="clockHoursLabel">
+    <use href="#fitfont-char" />
+    <use href="#fitfont-char" />
+  </use>
+
+  <!-- minutes label -->
+  <use href="#fitfont" id="clockMinutesLabel">
+    <use href="#fitfont-char" />
+    <use href="#fitfont-char" />
+  </use>
   
   <!-- battery information -->
-  <image id="batteryImage" class="sensor" href="images/battery.png" />
-  <text id="batteryLabel" class="label" />
+  <image id="batteryImage" x="9" y="9" class="sensor" href="images/battery.png" />
+  <text id="batteryLabel" x="40" y="26" class="label" />
 
   <!-- heart rate information -->
-  <image id="heartRateImage" class="sensor" href="images/heart.png" />
-  <text id="heartRateLabel" class="label" />
+  <image id="heartRateImage" x="9" y="35" class="sensor" href="images/heart.png" />
+  <text id="heartRateLabel" x="40" y="52" class="label" />
 
   <!-- steps information -->
-  <image id="stepsImage" class="sensor" href="images/steps.png" />
-  <text id="stepsLabel" class="label" />
+  <image id="stepsImage" x="9" y="60" class="sensor" href="images/steps.png" />
+  <text id="stepsLabel" x="40" y="77" class="label" />
 
   <!-- calendar information -->
-  <image id="calendarImage" class="sensor" href="images/calendar.png" />
-  <text id="calendarLabel" class="label" />
+  <image id="calendarImage" x="9" y="85" class="sensor" href="images/calendar.png" />
+  <text id="calendarLabel" x="40" y="102" class="label" />
 
 </svg>
