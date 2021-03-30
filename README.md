@@ -1,5 +1,7 @@
 # Fitbit Reading Girl Clock Face
 
+[![fitbit gallery](https://img.shields.io/badge/Fitbit%20Gallery-v1.0.0-green.svg)](https://gallery.fitbit.com/details/5656b78f-0aaa-4bcf-98f6-0701c363f2fe)
+
 Reading girl clock face for Fitbit Versa 2, Versa and Versa Lite.
 
 ## Prerequisites
