@@ -56,7 +56,7 @@ install
 
 If everything goes well and there is no error in the terminal logs, you will see the similar image like below in your Fitbit simulator.
 
-![Fitbit Versa 2 - Reading Girl Clock Face](screenshot/fitbit-reading-clock-face-versa-2.png "Reading Girl Clock Face")
+![Fitbit Versa 2 - Reading Girl Clock Face](screenshot/fitbit-reading-clock-face.png "Reading Girl Clock Face")
 
 ## Built With
 
